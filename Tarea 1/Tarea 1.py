@@ -23,9 +23,9 @@ print(f"El area de un triangulo es {A_tri:.3f}")
 #Volumen esfera
 
 r_esf = 4
-V_esf = (4/3)*np.pi*(r**3)
+V_esf = (r_esf/3)*np.pi*(r_esf**3)
 
-print(f"El vol de una esfera con radio {r_esf} es: {V_esf}")
+print(f"El vol de una esfera con radio {r_esf} es: {V_esf:.3f}")
 
 # Distancia entre dos puntos - - - - - - - - - - - - - - - - - - - - -
 
